@@ -12,7 +12,7 @@ int main(int argc, char** argv)
 	fgets(first, 255, stdin);
 	first[strlen(first) - 1] = '\0';
 
-	printf("Now enter your last name: ");
+	printf("Now enter please your last name: ");
 	gets(last);
 
 	printf("Hello %s %s!\n", first, last);
